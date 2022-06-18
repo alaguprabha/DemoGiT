@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="8.934">
+    <testcase classname="Search and adding functionality in greencart shopping mart" name="Search and add the products  order for products and proceed to checkout" time="8.46">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 742e9c5357c7b3af0803867b1abe6125" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given The user is on "https://rahulshettyacademy.com/seleniumPractise/#/" Green Kart landing page1.passed
+When user searched with shortname "Tom" and extracted the actual name of product1.failed
+And The  user adds the products in the shopping cart and  click on  proceed to checkout button.skipped
+Then the user checks the items in checkout page and verify whether apply promo button and place order button is enabled.skipped
+Then the user enters the country and click on agree to conditions and click on proceed.skipped
+And your order has been placed message have come and redirected to home page.skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 742e9c5357c7b3af0803867b1abe6125
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
+	at pageObject.Landingpageobjects.productnamecheck(Landingpageobjects.java:56)
+	at StepDefination.Landingpage1.user_searched_with_shortname_and_extracted_the_actual_name_of_product(Landingpage1.java:49)
+	at ✽.user searched with shortname "Tom" and extracted the actual name of product1(file:///C:/Users/itsar/eclipse-workspace/CuCumberSelenium/src/test/java/features/Greencartassignment.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and adding functionality in greencart shopping mart" name="Search and add the products  order for products and proceed to checkout 2" time="8.516">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9198eaf1e585dd98fb91ad46274a91a0" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given The user is on "https://rahulshettyacademy.com/seleniumPractise/#/" Green Kart landing page1.passed
+When user searched with shortname "Beet" and extracted the actual name of product1.failed
+And The  user adds the products in the shopping cart and  click on  proceed to checkout button.skipped
+Then the user checks the items in checkout page and verify whether apply promo button and place order button is enabled.skipped
+Then the user enters the country and click on agree to conditions and click on proceed.skipped
+And your order has been placed message have come and redirected to home page.skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52025}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9198eaf1e585dd98fb91ad46274a91a0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
+	at pageObject.Landingpageobjects.productnamecheck(Landingpageobjects.java:56)
+	at StepDefination.Landingpage1.user_searched_with_shortname_and_extracted_the_actual_name_of_product(Landingpage1.java:49)
+	at ✽.user searched with shortname "Beet" and extracted the actual name of product1(file:///C:/Users/itsar/eclipse-workspace/CuCumberSelenium/src/test/java/features/Greencartassignment.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place the order for products" name="Search the experience for product search in homepage and offeres page" time="8.534">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d492ba7d2d6b6333e3eed17b097b58f6" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given The user is on "https://rahulshettyacademy.com/seleniumPractise/#/" Green Kart landing page.passed
+When user searched with shortname "Tom" and extracted the actual name of product.failed
+Then The user searched with same short name in offers page to check if "Tom" exists.skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d492ba7d2d6b6333e3eed17b097b58f6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
+	at pageObject.Landingpageobjects.productnamecheck(Landingpageobjects.java:56)
+	at StepDefination.Landingpage.user_searched_with_shortname_and_extracted_the_actual_name_of_product(Landingpage.java:48)
+	at ✽.user searched with shortname "Tom" and extracted the actual name of product(file:///C:/Users/itsar/eclipse-workspace/CuCumberSelenium/src/test/java/features/greencart.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place the order for products" name="Search the experience for product search in homepage and offeres page 2" time="8.506">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 734b52896bab3751bf4c84281aa6f692" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given The user is on "https://rahulshettyacademy.com/seleniumPractise/#/" Green Kart landing page.passed
+When user searched with shortname "st" and extracted the actual name of product.failed
+Then The user searched with same short name in offers page to check if "st" exists.skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'JEEVA', ip: '172.20.3.82', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\itsar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 734b52896bab3751bf4c84281aa6f692
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
+	at pageObject.Landingpageobjects.productnamecheck(Landingpageobjects.java:56)
+	at StepDefination.Landingpage.user_searched_with_shortname_and_extracted_the_actual_name_of_product(Landingpage.java:48)
+	at ✽.user searched with shortname "st" and extracted the actual name of product(file:///C:/Users/itsar/eclipse-workspace/CuCumberSelenium/src/test/java/features/greencart.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
