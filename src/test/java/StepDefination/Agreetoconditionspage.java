@@ -36,6 +36,7 @@ public void the_user_enters_the_country_and_click_on_agree_to_conditions_and_cli
 	//Thread.sleep(2000);
 	agreetocondpageobj.proceedbuttonclick();
 	System.out.println("Clicking on proceed button");
+	System.out.println("Clicking on proceed button1");
 	
 	
 	
