@@ -50,6 +50,8 @@ public void your_order_has_been_placed_message_have_come_and_redirected_to_home_
 	
 	agreetocondpageobj.thankyoudisplay();
 	System.out.println("Redirecting to homepage");
+	System.out.println("Redirecting to homepage prabha");
+	
 	
 	
 	WebDriver driver=testcontextsetup.testbasefordriver.WebDriverManager();
