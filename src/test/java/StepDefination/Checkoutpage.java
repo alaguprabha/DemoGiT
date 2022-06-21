@@ -26,7 +26,7 @@ public void the_user_checks_the_items_in_checkout_page_and_verify_whether_apply_
 	Thread.sleep(2000);
 	checkingpageobj.placeorder();
 	Thread.sleep(2000);
-	
+	System.out.println("this is architect");
 	
 		
 	}

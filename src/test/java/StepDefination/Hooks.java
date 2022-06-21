@@ -49,7 +49,7 @@ public class Hooks {
 			//to send to scenario.attach(method, null, null);
 			byte[] filecontent=FileUtils.readFileToByteArray(Sourcefile);
 			scenario.attach(filecontent,"image/png","image");
-			
+			System.out.println("this is architect");
 		}
 		
 	}
