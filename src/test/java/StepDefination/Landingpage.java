@@ -50,6 +50,7 @@ testcontextsetup.landingpageproductname=Landingpageobj.productnamecheck();
 System.out.println("landingpageproductname is :"+testcontextsetup.landingpageproductname);
 Thread.sleep(5000);
 Landingpageobj.Topdealsclick();
+System.out.println("this is architect");
 
 }
 
